@@ -1,0 +1,167 @@
+
+@media only screen and (min-width: 320px){
+body{
+    background:  url(aux/Banner-portada.jpg)
+    
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: white;
+    font-size: 25px;
+    text-align: center;
+}
+h2{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.menuboard{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    margin-right: 5px;
+}
+div.menu:hover, div.videos:hover, div.contacto:hover {
+    opacity: .5;
+    text-decoration: underline;
+
+}
+.menu{
+    padding: 20px;
+}
+.videos{
+    padding: 20px;
+
+}
+.contacto{
+    padding: 20px;
+
+}
+.menu a {
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.videos a{
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+.contacto a{
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+
+.nombre{
+    padding: 20px;
+}
+.apellido{
+    padding: 20px;
+
+}.email{
+    padding: 20px;
+   
+}.pais{
+    padding: 20px;
+   
+}
+.inputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submit{
+    padding: 15px;
+}
+input[type=submit]:hover{
+background-color:  rgb(60, 123, 206);
+
+}
+input[type=reset]:hover{
+    background-color:  rgb(60, 123, 206);
+    
+    }
+
+.reset{
+    padding: 10px;
+}
+
+.video1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+
+}
+.video2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+}
+.videosvarios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
+@media only screen and (min-width: 375px){
+    h1{
+      
+        font-size: 30px;
+    }
+  
+    .menuboard{
+       
+        font-size: 15px;
+        margin-right: 10px;
+    }
+    
+}
+@media only screen and (min-width: 425px){
+
+    h1{
+      
+        font-size: 35px;
+    }
+  
+    .menuboard{
+       
+        font-size: 20px;
+        margin-right: 10px;
+    }
+    
+}
+@media only screen and (min-width: 768px){
+
+    
+}
+@media only screen and (min-width: 1024px){
+
+    
+}
+@media only screen and (min-width: 1440px){
+
+    
+}
